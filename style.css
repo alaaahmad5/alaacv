@@ -169,7 +169,27 @@
 .project-section-card:hover .second-screen {
   opacity: 0;
 }
-
+.project-section-card-btn{
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  cursor:pointer;
+  background-color: #0058ab;
+  color: #fff;
+  transition-duration: 500ms;
+  z-index: 0;
+}
+.project-section-card-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.project-section-card-btn:hover{
+  background-color: #ffcc00;
+}
+.project-section-card:hover .project-section-card-btn{
+  z-index: 1;
+}
 /* space */
 .space {
   background-color: aliceblue;
